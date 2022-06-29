@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "bookName": "Rich Dad Poor Dad",
+    "author": "Robert Kiyosaki",
+    "registrationId": "333f-gytu-j90k",
+    "price": "1700"
+  },
+  {
+    "id": 2,
+    "bookName": "Blood on the Tracks",
+    "author": "Oshimi Shuzo",
+    "registrationId": "yu7d-ghbn-67vn",
+    "price": "1900"
+  },
+  {
+    "id": 3,
+    "bookName": "Attack on Titan",
+    "author": "Hajime Isayama",
+    "registrationId": "bhh9-23s8-nbz4",
+    "price": "2500"
+  },
+  {
+    "id": 4,
+    "bookName": "Death Note",
+    "author": "Tsugumi Ohba",
+    "registrationId": "hu78-dead-k1ra",
+    "price": "3000"
+  },
+  {
+    "id": 5,
+    "bookName": "Rumbling Book",
+    "author": "Eren Yeager",
+    "registrationId": "mkio-65bh-t1tan",
+    "price": "2700"
+  },
+  {
+    "id": 6,
+    "bookName": "Random Book 1",
+    "author": "Author 1",
+    "registrationId": "koi5-bg2s-mn41",
+    "price": "1300"
+  },
+  {
+    "id": 7,
+    "bookName": "Random Book 2",
+    "author": "Author 2",
+    "registrationId": "noic-h3h3-bois",
+    "price": "4500"
+  },
+  {
+    "id": 8,
+    "bookName": "Random Book 3",
+    "author": "Author 3",
+    "registrationId": "990n-bhy4-bxku",
+    "price": "3100"
+  },
+  {
+    "id": 9,
+    "bookName": "Random Book 4",
+    "author": "Author 4",
+    "registrationId": "uik9-mku2-ukoj",
+    "price": "8000"
+  },
+  {
+    "id": 10,
+    "bookName": "Random Book 5",
+    "author": "Author 5",
+    "registrationId": "jk9p-15bh-nq23",
+    "price": "3400"
+  }
+]

@@ -1,38 +1,134 @@
-.App {
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Nunito&family=Open+Sans&display=swap");
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-container {
   display: flex;
   flex-direction: column;
+  margin: 30px 20px 10px;
+  padding: 1rem;
+  font-family: Nunito;
+}
+
+.header_main {
+  margin: 0px auto 20px auto;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 8px;
+  font-size: 32px;
+}
+
+th {
+  background-color: #010e21;
+  color: whitesmoke;
+}
+
+td {
+  background-color: #035757;
+  color: whitesmoke;
+}
+
+form {
+  display: flex;
+  gap: 5px;
+}
+
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form * {
+  font-size: 28px;
+}
+
+.btn {
+  font-family: Nunito;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn_primary {
+  background-color: #0a8d48;
+  margin-right: 5px;
+}
+
+.btn_secondary {
+  background-color: #ff6347;
+}
+
+.btn_danger {
+  background-color: #dc3545;
+  font-family: Nunito;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.btn_download {
+  background-color: #007bff;
+  font-family: Nunito;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 20px;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 40px auto 20px auto;
+}
+
+.addBook_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.addBook_form > input {
+  margin: 5px 0px;
+  width: 450px;
+  outline: gray;
+  border-radius: 3px;
+  height: 40px;
+  font-size: 23px;
+  outline-width: 0;
+  border: 1px solid gray;
+  padding-left: 10px;
+}
+
+.header_add {
+  margin: 10px auto 10px auto;
+}
+
+.no_display {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  color: black;
+  margin: 20px auto 30px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 10px 20px;
 }
